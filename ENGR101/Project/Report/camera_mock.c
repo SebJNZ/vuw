@@ -1,9 +1,8 @@
 /*
-    All code written by @SebJNZ, and is licensed under the 
+    All code in this section is written by @SebJNZ, and is licensed under the 
     GNU Affero General Public License v3.0.
     You must follow and understand all permissions, rules, 
     and limitations stated under this license.
-
 */
 
 #include "camera_mock.h"
