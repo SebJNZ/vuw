@@ -1,4 +1,8 @@
 /*
+    This script specifically is copyright and cannot be copied or used.
+*/
+
+/*
  * The code below is meant to detect 
  * whether the Red Ruby is present. 
 */
