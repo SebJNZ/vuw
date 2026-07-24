@@ -1,9 +1,5 @@
 /*
-    All code written by @SebJNZ, and is licensed under the 
-    GNU Affero General Public License v3.0.
-    You must follow and understand all permissions, rules, 
-    and limitations stated under this license.
-
+    This script specifically is copyright and cannot be copied or used.
 */
 
 
