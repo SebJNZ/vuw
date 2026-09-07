@@ -11,6 +11,13 @@ To change the search type, change the method.
 **BFS Methods available:**
 * `printLevelOrder()` - Visit each node at each level of the tree from top (root) to bottom and left to right.
 
+## Usage:
+**Compile Program:**
+`javac App.java`
+
+**Run Program:**
+`java App`
+
 ## Family Tree
 <img src="https://github.com/SebJNZ/vuw/blob/ebd2f5adc5504c88eb2319ae574a6efcf763e6e5/COMP103/Algorithms/Depth%20First%20Search/tree.png" width="500">
 
