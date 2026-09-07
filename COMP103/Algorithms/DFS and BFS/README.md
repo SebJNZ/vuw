@@ -14,3 +14,17 @@ To change the search type, change the method.
 ## Family Tree
 <img src="https://github.com/SebJNZ/vuw/blob/ebd2f5adc5504c88eb2319ae574a6efcf763e6e5/COMP103/Algorithms/Depth%20First%20Search/tree.png" width="500">
 
+### DFS - Pre-Order:
+<img src="https://github.com/SebJNZ/vuw/blob/a55581ccc04444a2e201edceffd42e44ba918463/COMP103/Algorithms/DFS%20and%20BFS/images/Pre-order.png" width="500">
+
+
+### DFS - In-Order:
+<img src="https://github.com/SebJNZ/vuw/blob/a55581ccc04444a2e201edceffd42e44ba918463/COMP103/Algorithms/DFS%20and%20BFS/images/In-order.png" width="500">
+
+
+### DFS - Post-Order:
+<img src="https://github.com/SebJNZ/vuw/blob/a55581ccc04444a2e201edceffd42e44ba918463/COMP103/Algorithms/DFS%20and%20BFS/images/Post-order.png" width="500">
+
+
+### BFS - Level-order:
+<img src="https://github.com/SebJNZ/vuw/blob/a55581ccc04444a2e201edceffd42e44ba918463/COMP103/Algorithms/DFS%20and%20BFS/images/Level-order.png" width="500">
