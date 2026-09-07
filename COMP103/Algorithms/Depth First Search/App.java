@@ -1,5 +1,7 @@
 package depthFirstSearch;
 
+import java.util.ArrayDeque;
+
 public class App {
     public void printAllPre(Person p) {
         if (p != null) {
@@ -24,6 +26,22 @@ public class App {
             printAllInOrder(p.getMother());
         }
     }
+    
+    public void printLevelOrder(Person root) {
+    	if (root != null) {
+    		ArrayDeque<Person> todo = new ArrayDeque<>();
+    		todo.offer(root);
+    		
+    		while(!todo.isEmpty()) {
+    			Person p = todo.pop();
+    			
+    			System.out.println(p);
+    			if (p.getFather() != null) { todo.offer(p.getFather()); }
+    			if (p.getMother() != null) { todo.offer(p.getMother()); }
+    		}
+    	}
+    	
+    }
 
     public static void main(String[] args) {
         App app = new App();
@@ -47,6 +65,6 @@ public class App {
         						new Person("H", 1921, null, null))
         		));
 
-        app.printAllInOrder(me);
+        app.printLevelOrder(me);
     }
 }
