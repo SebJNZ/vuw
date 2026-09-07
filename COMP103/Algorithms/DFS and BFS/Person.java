@@ -1,5 +1,3 @@
-package depthFirstSearch;
-
 public class Person {
 	private String name;
     private int birthYear;
