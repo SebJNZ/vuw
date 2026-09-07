@@ -1,5 +1,3 @@
-package depthFirstSearch;
-
 import java.util.ArrayDeque;
 
 public class App {
