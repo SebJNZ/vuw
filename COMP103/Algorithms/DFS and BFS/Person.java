@@ -16,5 +16,5 @@ public class Person {
     public Person getMother() { return mother; }
     public Person getFather() { return father; }
 
-    public String toString() { return name + "(" + birthYear + ")"; }
+    public String toString() { return name + " - (Born: " + birthYear + ")"; }
 }

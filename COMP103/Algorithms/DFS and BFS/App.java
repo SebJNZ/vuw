@@ -3,6 +3,11 @@ package depthFirstSearch;
 import java.util.ArrayDeque;
 
 public class App {
+	/**
+	 * DFS - Depth-First Search - Pre order
+	 * Recursively prints family tree visiting the root node, 
+	 * then traversing sub-trees from left to right.
+	 */
     public void printAllPre(Person p) {
         if (p != null) {
             System.out.println(p);
@@ -11,6 +16,11 @@ public class App {
         }
     }
 
+    /**
+     * DFS - Depth-First Search - Post Order
+     * Recursively prints family trees by traversing the sub-trees from 
+     * left to right, then visits the root node.
+     */
     public void printAllPost(Person p) {
         if (p != null) {
             printAllPost(p.getFather());
@@ -19,6 +29,11 @@ public class App {
         }
     }
 
+    /**
+     * DFS - Depth-First Search - In order
+     * Recursively prints family trees by traversing the left sub-trees, 
+     * then visiting the root node, then traversing right sub-trees.
+     */
     public void printAllInOrder(Person p) {
         if (p != null) {
             printAllInOrder(p.getFather());
@@ -27,6 +42,11 @@ public class App {
         }
     }
     
+    /**
+     * BFS - Breadth-First Search - Level Order
+     * Prints family trees by visiting each node at each level of the tree from top (root)
+     * to bottom and left to right.
+     */
     public void printLevelOrder(Person root) {
     	if (root != null) {
     		ArrayDeque<Person> todo = new ArrayDeque<>();
@@ -43,6 +63,10 @@ public class App {
     	
     }
 
+    /**
+     * Main method -> Creates an app instance, family tree, then calls the selected
+     * search method on the family tree.
+     */
     public static void main(String[] args) {
         App app = new App();
 
